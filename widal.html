@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div onclick="window.print()" class="mainhead" >
+        Lab Report
+    </div>
+    
+      <div class="bio"> 
+    <h5>
+        <label for="txtFIRST NAME">PATIENT NAME</label>
+        <select id="farm1" name="Title" >
+            <option value="--">--</option>   
+            <option value="Mr">Mr</option>    
+            <option value="S/O">S/O</option>
+            <option value="Mrs">Mrs</option>    
+            <option value="D/O">D/O</option>
+            <option value="W/O">W/O</option>
+         </select>
+
+            <input id="farm" type="text" name="Patient Name" size="19"    maxlength="30"/> 
+        </h5>
+
+<h5> <label for="txtFIRST NAME">REFERRED BY:</label> 
+<select name="Doctor" >   
+        <option value="--">--</option> 
+        <option value="SELF">Self</option> 
+        <option value="Dr.MUHAMMAD ISMAIL SHEIKH SB">Dr.Muhammad Ismail Sheikh SB</option> 
+        <option value="Dr.MUHAMMAD YOUSUF ARAIN SB">Dr.Muhammad Yousuf Arain SB</option> 
+        <option value="Dr.SHAMIM CHOOHAN SBA">Dr.Shamim Choohan SBA</option> 
+        <option value="Dr.ABDUL SATTAR ARAIN SB">Dr.Abdul Sattar Arain SB</option> 
+        <option value="Dr.ABDUL RASHEED ARAIN SB">Dr.Abdul Rasheed Arain SB</option> 
+        <option value="Dr.NAFEES AHMED MEMON  SB">Dr.Nafees Ahmed Memon SB</option> 
+</select></h5>
+
+
+<h5>
+    <label for="date"> DATE : </label>
+        <input type="datetime-local" name="Date" id="currentdate">
+    
+</h5>
+
+<h5>  <label for="txtFIRST NAME">GENDER</label> 
+    <select name="Gender" >
+        <option value="--">--</option>   
+        <option value="Male">Male</option>    
+        <option value="Female">Female</option> </select>
+    </h5>
+    
+
+    
+ </div>
+        <div class="report">
+        <h5> <p class="head1"> Serological Examination</p> <br> 
+            <table width="600" cellpadding=5 cellspacing="6"> 
+                <tr> 
+                    <td class="reporthead">TEST</td>
+                    <td class="reporthead">RESULT</td>
+                    
+                </tr>
+                <tr> 
+                    <td>
+                        <select name="Test" >   
+                          
+                            <option  value="WIDAL">WIDAL</option>
+                       
+                          
+                           
+                        </select>
+                    </td>
+                    <td>
+                        <select class="val" name="Result" >   
+                            <option class="val" value="--">--</option>
+                            <option class="val" value="(+Ve)Positive">(+Ve)Positive</option>
+                            <option class="val" value="(-Ve)Negative">(-Ve)Negative</option>
+                             
+                        </select>
+                    </td>
+                </tr>
+                <tr> 
+                    <td>
+                        <select name="Test" >   
+                            
+                            <option value="TO">TO</option>
+                           
+                        </select>   
+                    </td>
+                    <td>
+                        <select class="val" name="Result" >   
+                            <option class="val" value="--">--</option>
+    
+                            <option class="val" value=" +Ve  1:320"> (+Ve) Positive  1:320</option>
+                            <option  class="val" value="+Ve 1:160 ">(+Ve) Positive 1:160 </option>
+                            <option class="val" value="-Ve 1:40 "> (-Ve) Negative 1:40 </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="Test" >   
+                            
+                            <option value="TH">TH</option>
+                           
+                            
+                            
+                        </select>   
+                    </td>
+                    <td>
+                        <select class="val" name="Result" >   
+                            <option class="val" value="--">--</option>
+                            
+                            <option class="val" value=" +Ve  1:80">(+Ve) Positive  1:80</option>
+                            <option class="val" value="+Ve 1:160 ">(+Ve) Positive 1:160 </option>
+                            <option class="val" value="-Ve 1:40 ">(-Ve) Negative 1:40 </option>
+                        </select> 
+                    </td>    
+                </tr>
+
+
+           
+        </table>
+    </h5> </div>
+    <div class="footer">
+        <p>
+            This is computer generated report, does not require any signature                                                                                                                                                  
+            </p></div>
+            
+
+    <script src="app.js"></script>
+</body>
+</html>

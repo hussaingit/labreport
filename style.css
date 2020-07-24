@@ -1,0 +1,131 @@
+
+
+
+label{
+    margin: 4px 0px 2px 0px;
+    float: left;
+    width: 110px;text-align: justify;padding: 5px 5px 5px 5px;
+
+}
+.result{
+    font-size: 700%;font-weight: bold;font-family: Arial, Verdana, sans-serif; 
+}
+select{
+    font-size: 18px;
+    height: 26px;
+    outline: none;
+    border: 1px solid black;
+
+
+}
+
+
+.bio{
+    border: thin dotted black;
+    border-width: 2px;
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 120px;
+    text-align: justify;
+    height: 220px;
+    flex-wrap: wrap;
+}
+.report{
+    border: thin dotted black;
+    border-width: 2px;
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 90px;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+.report1{
+    border: thin dotted black;
+    border-width: 2px;
+    margin: 0 auto;
+    margin-top: 90px;
+    text-align: justify;
+    width: 660px;
+    flex-wrap: wrap;
+}
+
+.head{
+    font-family: sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 200px;
+}
+.head1{
+    font-family: sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 130px;
+    flex-wrap: wrap;
+}
+.val{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 19px;
+}
+.mainhead{
+    font-weight: bold;
+    margin-top: 280px;
+    margin-left: 300px;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    flex-wrap: wrap;
+}
+.btn-print{
+    width: 100px;
+    height: 50px;
+    flex-wrap: wrap;
+}
+#farm{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    
+    font-size: 19px; 
+    height: 25px;
+}
+#farm1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    
+    font-size: 19px; 
+    height: 27px
+}
+.footer{
+    text-align: center;
+    flex-wrap: wrap;
+}
+.reporthead{
+    font-size: 16px;
+}
+#currentdate{
+    font-size: 20px;
+}
+
+.userinter{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 250px;
+    display: list-item;
+    flex-wrap: wrap;
+    
+}
+.btn-test{
+    width: 150px;
+    height: 150px;
+    font-weight: bold;
+    font-size: 18px;
+    flex-wrap: wrap;
+
+}
+input{
+    outline: none;
+    border: 1px solid black;
+}
+
+ 

@@ -9,6 +9,10 @@
 </head>
 
 <body> 
+    <div id="watermark">
+        <p>Ali Clinical Laboratory</p>
+        </div>
+      
     
     <div onclick="window.print()" class="mainhead" >
         Lab Report
@@ -24,6 +28,8 @@
             <option value="Mrs">Mrs</option>    
             <option value="D/O">D/O</option>
             <option value="W/O">W/O</option>
+            <option value="Baby">Baby</option>
+            <option value="Miss">Miss</option>
          </select>
 
             <input id="farm" type="text" name="Patient Name" size="19"    maxlength="30"/> 
@@ -39,7 +45,10 @@
         <option value="Dr.ABDUL SATTAR ARAIN SB">Dr.Abdul Sattar Arain SB</option> 
         <option value="Dr.ABDUL RASHEED ARAIN SB">Dr.Abdul Rasheed Arain SB</option> 
         <option value="Dr.NAFEES AHMED MEMON  SB">Dr.Nafees Ahmed Memon SB</option> 
-</select></h5>
+        <option value="Dr.Muhammad Aslam Arain SB">Dr.Muhammad Aslam Arain SB </option>
+        <option value="Dr.Shahid Parvez Arain SB">Dr.Shahid Parvez Arain SB </option>
+        <option value="Dr.Habibullah Arain SB">Dr.Habibullah Arain SB</option> 
+    </select></h5>
 
 
 <h5>
@@ -53,6 +62,9 @@
         <option value="--">--</option>   
         <option value="Male">Male</option>    
         <option value="Female">Female</option> </select>
+        <span>AGE</span>
+        <input class="age"  type="number" size="3"  >
+        Years
     </h5>
         </div>
       <div class="report1">
@@ -73,10 +85,12 @@
                 </td>
                 <td>
                     <select class="val" name="Result"  >   
-                        <option class="val" value="--">--</option>
-                        <option class="val" value="(-Ve)Negative">(-Ve)Negative</option>
-                        <option class="val" value="(+Ve)Positive P=Vivax">(+Ve)Positive P=Vivax</option>
-                        <option class="val" value="(+Ve)Positive P=Falciparum">(+Ve)Positive P=Falciparum</option>
+                        
+                    
+                        
+                        <option class="val" value="(-Ve)Negative"> No Malaria Parasite seen  (-Ve)Negative</option>
+                        <option class="val" value="(+Ve)Positive P=Vivax">  Malaria Parasite seen  (+Ve)Positive P=Vivax</option>
+                        <option class="val" value="(+Ve)Positive P=Falciparum">  Malaria Parasite seen  (+Ve)Positive P=Falciparum</option>
 
                     </select> 
                 </td>
@@ -103,7 +117,7 @@
                     </td>
                     <td>
                         <select class="val" name="Result" >   
-                            <option class="val" value="--">--</option>
+                            
                             <option class="val" value="(+Ve)Positive">(+Ve)Positive</option>
                             <option class="val" value="(-Ve)Negative">(-Ve)Negative</option>
                              
@@ -121,7 +135,7 @@
                     </td>
                     <td>
                         <select class="val" name="Result" >   
-                            <option class="val" value="--">--</option>
+                            
                           
                             <option class="val" value=" +Ve  1:320"> (+Ve) Positive   1:320</option>
                             <option  class="val" value="+Ve 1:160 ">(+Ve) Positive 1:160 </option>
@@ -139,7 +153,7 @@
                     </td>
                     <td>
                         <select class="val" name="Result" >   
-                            <option class="val" value="--">--</option>
+                        
                           
                             <option class="val" value=" +Ve  1:80"> (+Ve) Positive  1:80</option>
                             <option class="val" value="+Ve 1:160 ">(+Ve) Positive 1:160 </option>
